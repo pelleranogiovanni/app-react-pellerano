@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const MenuHeader = () => {
+const NavBar = () => {
     return (
         <div>
             <header className="min-h-screen bg-gray-100">
@@ -27,4 +27,4 @@ const MenuHeader = () => {
     );
 }
 
-export default MenuHeader;
+export default NavBar;

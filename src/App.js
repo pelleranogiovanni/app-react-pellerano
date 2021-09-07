@@ -1,19 +1,13 @@
 import * as React from "react";
 import './App.css';
 import "@material-tailwind/react/tailwind.css";
-import Desafio from "./components/Desafio";
-import MenuHeader from "./components/MenuHeader";
-
-
-
+import NavBar from "./components/NavBar";
 
 const App = () => {
 
   return (
     <div className="App">
-        <MenuHeader />
-        <Desafio />
-        
+        <NavBar />      
     </div>
   );
 }
